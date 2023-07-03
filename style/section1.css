@@ -1,0 +1,118 @@
+#section1{
+        padding: 95px 0px;
+        background: #F4F5F7;
+}
+
+.section1__title {
+    color: #2D314D;
+    font-size: 40px;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px;
+    letter-spacing: -0.714px;
+    margin-bottom: 15px;
+}
+
+.section1__paragraph {
+color: #2d314d;
+color: #9597A5;
+font-size: 18px;
+font-family: Public Sans;
+line-height: 28px;
+width: 635px;
+letter-spacing: -0.281px;
+margin-bottom: 70px;
+}
+
+.section1-cardwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section1-cardwrapper-card {
+width: 100%;
+width: 255px;
+}
+.section1-cardwrapper-card img{
+    margin-bottom: 40px;
+}
+.section1-cardwrapper-card h1 {
+    color: #2D314D;
+    font-size: 24px;
+    font-family: Public Sans;
+    font-weight: 100;
+    line-height: 28px;
+    margin: bottom 30px;;
+    letter-spacing: -0.429px;
+}
+
+.section1-cardwrapper-card p {
+    color: #9597A5;
+    font-size: 16px;
+    font-family: Public Sans;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+}
+
+@media screen and (max-width: 767px){
+    #section1{
+      text-align: center;
+    }
+    .section1__title {
+        color: #2D314D;
+        font-size: 40px;
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 64px;
+        letter-spacing: -0.714px;
+        margin-bottom: 15px;
+    }
+    
+    .section1__paragraph {
+    color: #2d314d;
+    color: #9597A5;
+    font-size: 18px;
+    font-family: Public Sans;
+    line-height: 28px;
+    width: 100%;
+    letter-spacing: -0.281px;
+    margin-bottom: 70px;
+    }
+    
+    .section1-cardwrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .section1-cardwrapper-card {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    .section1-cardwrapper-card img{
+        margin-bottom: 40px;
+    }
+    .section1-cardwrapper-card h1 {
+        color: #2D314D;
+        font-size: 24px;
+        font-family: Public Sans;
+        font-weight: 100;
+        line-height: 28px;
+        margin: bottom 30px;;
+        letter-spacing: -0.429px;
+    }
+    
+    .section1-cardwrapper-card p {
+        color: #9597A5;
+        font-size: 16px;
+        font-family: Public Sans;
+        line-height: 26px;
+        letter-spacing: -0.25px;
+    }
+    
+}
